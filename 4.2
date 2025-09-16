@@ -1,0 +1,17 @@
+def caesar_cipher(text, k):
+    result = ""
+    for char in text.upper(): 
+        if char.isalpha():
+            p = ord(char) - ord('A')
+            c = (p + k) % 26
+            result += chr(c + ord('A'))
+        else:
+            result += char   
+    return result
+
+plaintext = "vohuyenlinh"
+k = 26
+ciphertext = caesar_cipher(plaintext, k)
+print("Plaintext :", plaintext.upper())
+print("k =", k)
+print("Ciphertext:", ciphertext)
