@@ -1,0 +1,13 @@
+ Plaintext  Số P  (P + 26) mod 26      Ciphertext 
+
+ V          21    (21+26) mod 26 = 21  V          
+ O          14    14                   O          
+ H          07    07                   H          
+ U          20    20                   U          
+ Y          24    24                   Y          
+ E          04    04                   E          
+ N          13    13                   N         
+ L          11    11                   L          
+ I          08    08                   I          
+ N          13    13                   N          
+ H          07    07                   H          
